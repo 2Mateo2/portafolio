@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Portafolio Personal</title>
+</head>
+<body>
+     <!-----start Hearder section----->
+     <div id="hearder">
+        <div class="contenier">
+            <nav >
+                <img src="">
+
+                <ul id="sidmenu">
+                    <li><a href="#hearder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav> 
+              <div class="hearder-text">
+                <p>Estudiante de ingenieria de sistema</p>
+                <h1>Hola soy <span>Mateo Movilla</span> <br> De Colombia</h1>
+              </div>       
+            </div>
+        </div>
+     </div>
+      <!-----End Hearder section----->
+
+
+      <!-----start About section----->
+      <div id="about">
+        <div class="contenier">
+            <div class="row">
+                <div class="video-responsive about-col-1">
+                    <!--<img src="img/team1.jpg" >   -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GNuJefsGEhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+                </div>
+                
+                <div class="about-col-2">
+                    <h2 class="sub-title">Sobre mi...</h1>
+                    <p>Soy una persona responsable, con una gran motivación de seguir aprendiendo 
+                    cosas nuevas y demostrar al mundo de todo lo que soy capaz de ofrecer con mis habilidades de
+                    programación, donde se varios lenguajes de programación tales como: Java, 
+                    JavaScript, Pyhon. Habilidades en resolver problemas mediante algoritmos, 
+                    habilidades de frontend. <br> Actualmente 
+                    me encuentro aprendiendo más sobre el lado del servidor (backend), Donde 
+                    cree una api con NodeJs, también una con Python y esta la consumí en 
+                    JavaScript y la otra en Java, me considero una persona sociable, que le gusta 
+                    trabajar en equipo los proyectos, al mismo tiempo que me esfuerzo
+                     por trabajar y fomentar mis valores como la responsabilidad</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Educacion</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Base de datos</span><br>Sql, MySQL</li>
+                        <li><span>Frontend</span><br>Html, css, js, bootstrap, angular</li>
+                        <li><span>Backend</span><br>NodeJS, Python, Java</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Ingenieria de sistema</span><br>Corporacion Universitaria Latinoamericana</li>
+                        <li><span>Desarrollo web</span><br>Curso en Undemy</li>
+                        <li><span>Porgramacion y Dessarrollo web</span><br>Mision Tic 2022/Universidad Calda</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-----End About section----->
+
+
+
+
+
+
+
+        <!----portfolio section Start ----->
+        <div id="portfolio">
+            <div class="contenier">
+                <h1 class="sub-title">Mis proyectos</h1>
+                <p>Aqui se encuentra proyectos que he realizado o estoy realizando</p>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/proyecto1.PNG" >
+                        <div class="layer">
+                            <h3>Desarrollo web(frontend)</h3>
+                            <p>En este proyecto utilizo tecnologias como html y bootstrap, el cual es un framework de css</p>
+                            <a target="_blank" href="https://2mateo2.github.io/pagina-con-boostrap/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+
+                        
+                    </div>
+                    <div class="work">
+                        <img src="img/proyecto2.PNG">
+                        <div class="layer">
+                            <h3>Desarrollo web(backend)</h3>
+                            <p>En este proyecto se creo una base de datos utilizando MySQL, la cual se comunica con una pagina web mediante una api rest que se creo en NodeJS y Express
+                            </p>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=Ju5fQktuOYc&ab_channel=MATEO"><i class="fa-solid fa-up-right-from-square"></i></a>                            
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="img/proyecto3.PNG">
+                        <div class="layer">
+                            <h3>Proyecto en Angular</h3>
+                            <p>En este proyecto web se realizo en Angular utilizando Typescript, y se creo un crud, el cual como indica crea, lee, edita y elimina registros</p>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=Ju5fQktuOYc&ab_channel=MATEO"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+                <a href="#" class="btn">Learn More</a>
+
+            </div>
+        </div>
+         <!----portfolio section End ----->
+
+      <!-----Service section Start----->
+      <div id="services">
+        <div class="contenier">
+            <h1 class="sub-title">Documentacion de los proyectos</h1>
+            <p>Aqui se encuentra los proyecots comentados en el portafolio y se muestra el codigo del proyecto</p>
+            <div class="services-list">
+                <div>
+                    <img src="img/pdf.png" height="100px">
+                    <h2>Desarrollo web(backend)
+                    </h2>
+                    <p>En este proyecto se creo una base de datos utilizando MySQL, la cual se comunica con una pagina web mediante una api rest que se creo en NodeJS y Express</p>
+                    <a href="docs/PROYECTO DE UNA API DEPURADA EN UNA PAGINA WEB.pdf" download="Documentancion de proyecto heho en NodeJs" class="btn btn2">Mas informacion...</a>
+                </div>
+                <div>
+                    <img src="img/pdf.png" height="100px">
+                    <h2>Desarrollo de software(Java)</h2>
+                    <p>En este proyecto se creo un software que muestra los empleados y clientes de las empresas agregadas a la base de datos, este sodtware se creo en java.</p>
+                    <a target="_blank" href="https://youtu.be/WJsJlJwKWUc" class="btn btn2">Mas informacion...</a>
+                </div>
+                
+
+            </div>
+
+        </div>
+     </div>
+      <!----services section end ----->
+
+
+          <!----Contact section Start ----->
+          <div id="contact">
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contactame</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>themateo742@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>3117502271</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>6053236427</p>
+
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="docs/CV-Mateo-Movilla.pdf" download="CV MATEO MOVILLA" class="btn btn2">Descargar CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="massage" rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2" onclick="mensaje()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Que tengas un lindo dia<i class="fa-solid fa-heart"></i></p>
+            </div>
+          </div>
+   
+          <!----Contact section End ----->
+  
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function mensaje(){
+            alert("En proceso... por favor contactame mediante un correo o un mensaje en Whatsapp, gracias por estar interesado")
+            
+        }
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+      </script>
+
+    <script>
+        var sidmenu = document.getElementById("sidmenu");
+        function openmenu(){
+            sidmenu.style.right ="0";
+        }
+        function closemenu(){
+            sidmenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
