@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <title>Portafolio Personal</title>
 </head>
 <body>
@@ -40,39 +41,45 @@
         <div class="contenier">
             <div class="row">
                 <div class="video-responsive about-col-1">
-                    <!--<img src="img/team1.jpg" >   -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GNuJefsGEhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+                    <!--<img src="img/team1.jpg" >  
+                    <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+                 -->
                 </div>
                 
                 <div class="about-col-2">
-                    <h2 class="sub-title">Sobre mi...</h1>
-                    <p>Soy una persona responsable, con una gran motivación de seguir aprendiendo 
-                    cosas nuevas y demostrar al mundo de todo lo que soy capaz de ofrecer con mis habilidades de
-                    programación, donde se varios lenguajes de programación tales como: Java, 
-                    JavaScript, Pyhon. Habilidades en resolver problemas mediante algoritmos, 
-                    habilidades de frontend. <br> Actualmente 
-                    me encuentro aprendiendo más sobre el lado del servidor (backend), Donde 
-                    cree una api con NodeJs, también una con Python y esta la consumí en 
-                    JavaScript y la otra en Java, me considero una persona sociable, que le gusta 
-                    trabajar en equipo los proyectos, al mismo tiempo que me esfuerzo
-                     por trabajar y fomentar mis valores como la responsabilidad</p>
-                   <div class="tab-titles">
+                    <h2 class="sub-title">Acerca de mí...</h1>
+                    <p>
+                        Soy Mateo Movilla, un estudiante de ingeniería de sistemas apasionado por la creación de soluciones tecnológicas innovadoras. 
+                        Mi enfoque se centra en el desarrollo web y software, donde he adquirido habilidades sólidas en diversas tecnologías.
+                    </p>
+                    <p>
+                        Sociable y orientado al trabajo en equipo, disfruto enfrentando desafíos y colaborando con otros para lograr resultados 
+                        excepcionales. Mi experiencia abarca desde el desarrollo frontend utilizando tecnologías como HTML5, CSS, y JavaScript, 
+                        hasta el backend con NodeJS, Express, Flask, Fastapi y bases de datos como MySQL.
+                    </p>
+                    <p>
+                        He tenido el privilegio de trabajar en proyectos significativos, como una calculadora interactiva en React, 
+                        una página educativa sobre verbos en inglés, y una aplicación de lista de tareas. Además, 
+                        he explorado el mundo de la inteligencia artificial con un chatbot desarrollado en Python utilizando NLTK y Keras.
+                    </p>                  
+                    <div class="tab-titles">
                     <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
                     <p class="tab-links" onclick="opentab('education')">Educacion</p>
                    </div>
                    <div class="tab-contents active-tab" id="skills">
                     <ul>
                         <li><span>Base de datos</span><br>Sql, MySQL</li>
-                        <li><span>Frontend</span><br>Html, css, js, bootstrap, angular</li>
-                        <li><span>Backend</span><br>NodeJS, Python, Java</li>
+                        <li><span>Frontend</span><br>HTML5, CSS, JavaScript, Bootstrap, React, Angular</li>
+                        <li><span>Backend</span><br>NodeJS, Express, NestJS, Python, Flask, FastAPI, Java, Kotlin</li>
                     </ul>
                    </div>
 
                    <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>Ingenieria de sistema</span><br>Corporacion Universitaria Latinoamericana</li>
+                        <li><span>Ingeniería de sistema</span><br>Corporación Universitaria Latinoamericana</li>
                         <li><span>Desarrollo web</span><br>Curso en Undemy</li>
-                        <li><span>Porgramacion y Dessarrollo web</span><br>Mision Tic 2022/Universidad Calda</li>
+                        <li><span>programación y Desarrollo web</span><br>Misión Tic 2022/Universidad Calda</li>
+                        <li><span>Diplomado en programación con énfasis en aplicaciones móviles</span><br>Misión Tic 2022/Universidad Calda</li>
                     </ul>
                    </div>
                 </div>
@@ -81,18 +88,63 @@
       </div>
       <!-----End About section----->
 
-
-
-
-
-
-
         <!----portfolio section Start ----->
         <div id="portfolio">
             <div class="contenier">
-                <h1 class="sub-title">Mis proyectos</h1>
+                <h1 class="sub-title">Mis Proyectos</h1>
                 <p>Aqui se encuentra proyectos que he realizado o estoy realizando</p>
+                <!----Project #1 ----->
                 <div class="work-list">
+                    <div class="work">
+                        <img src="img/proyectoCalculadora.PNG" >
+                        <div class="layer">
+                            <h3>Desarrollo web(Frontend/React)</h3>
+                            <p>
+                                Este proyecto trata de una calculadora con sus funciones básicas las cuales son; 
+                                sumar, restar, dividir y multiplicar. Esta aplicación fue hecha en React.
+                            </p>               
+                            <a target="_blank" href="https://2mateo2.github.io/calculadora/"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/ProyectoVerb.PNG">
+                        <div class="layer">
+                            <h3>Desarrollo web(frontend)</h3>
+                            <p>
+                                Esta página es informativa y educativa, en ella se visualizan los 50 verbos más utilizados en el idioma ingles,
+                                y se incluye un test para repasar estos verbos, página hecha para un colegio de primaria. 
+                                Esta aplicación fue hecha con HTML5, Boostrap, JavaScript
+                            </p>
+                            <a target="_blank" href="https://2mateo2.github.io/pagina-ingles/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/proyectoTareas.PNG">
+                        <div class="layer">
+                            <h3>Desarrollo web(Frontend/React)</h3>
+                            <p>
+                                Este proyecto trata, de una lista de tarea, donde el usuario puede crear tareas,
+                                marcarlas como completadas, e eliminarla. Esta aplicación fue hecha en React.
+                            </p>
+                            <a target="_blank" href="https://2mateo2.github.io/lista-de-tareas/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!----Project #2 ----->
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/proyectoEncriptador.PNG">
+                        <div class="layer">
+                            <h3>Desarrollo web(Frontend)</h3>
+                            <p>
+                                Esta página trata de un encriptador de texto, el cual encripta un mensaje y a la vez tiene la opción
+                                de desencriptar el mensaje. Este fue un reto propuesto por Oracle+AluraLatam.
+                                Esta aplicación fue hecha con HTML5, Boostrap, JavaScript              
+                            </p>
+                            <a target="_blank" href="https://2mateo2.github.io/Encriptador-De-Texto/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
                     <div class="work">
                         <img src="img/proyecto1.PNG" >
                         <div class="layer">
@@ -100,32 +152,67 @@
                             <p>En este proyecto utilizo tecnologias como html y bootstrap, el cual es un framework de css</p>
                             <a target="_blank" href="https://2mateo2.github.io/pagina-con-boostrap/"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
-
-                        
-                    </div>
-                    <div class="work">
-                        <img src="img/proyecto2.PNG">
-                        <div class="layer">
-                            <h3>Desarrollo web(backend)</h3>
-                            <p>En este proyecto se creo una base de datos utilizando MySQL, la cual se comunica con una pagina web mediante una api rest que se creo en NodeJS y Express
-                            </p>
-                                <a target="_blank" href="https://www.youtube.com/watch?v=Ju5fQktuOYc&ab_channel=MATEO"><i class="fa-solid fa-up-right-from-square"></i></a>                            
-                        </div>
-                        
                     </div>
                     <div class="work">
                         <img src="img/proyecto3.PNG">
                         <div class="layer">
                             <h3>Proyecto en Angular</h3>
-                            <p>En este proyecto web se realizo en Angular utilizando Typescript, y se creo un crud, el cual como indica crea, lee, edita y elimina registros</p>
+                            <p>
+                                Este proyecto, es sobre una página web, de una biblioteca la cual muestra su misio, visión, la categoría
+                                de sus libros (Filosóficos, tecnológicos, etc.), y los servicios que presenta, esta aplicación tiene un crud de cliente.
+                                También tiene un crud para solicitar el préstamo de un libro, al igual que puede hacer una reserva en la sala de lectura.
+                                Esta página fue hecha con Angular, Typescript.
+                            </p>
                             <a target="_blank" href="https://www.youtube.com/watch?v=Ju5fQktuOYc&ab_channel=MATEO"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
-                        
                     </div>
-                  
                 </div>
-                <a href="#" class="btn">Learn More</a>
 
+                <!----Project #3 ----->
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/proyecto2.PNG">
+                        <div class="layer">
+                            <h3>Desarrollo web(backend)</h3>
+                            <p>
+                                Este proyecto trata de una página web relacionada con pronósticos de apuesta deportiva específicamente sobre el 
+                                mundial, y esta consume un api que se encarga de generar estas estadísticas, esta página fue pedida por un cliente
+                                que hace apuestas deportivas.
+                                La api se hizo con NodeJS, y las consultas y base de datos, se hicieron con MySQL, y esta api se consume en una 
+                                página web, hecha en html, bootstrap y javascript.
+                            </p>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=Ju5fQktuOYc&ab_channel=MATEO"><i class="fa-solid fa-up-right-from-square"></i></a>                            
+                        </div>
+                    </div>
+                        <div class="work">
+                            <img src="img/proyecyoFerreteria.PNG" >
+                            <div class="layer">
+                                <h3>Desarrollo web(backend/NodeJS)</h3>
+                                <p>
+                                    Este proyecto trata de una api rest sobre una ferretería, la cual gestiona sus clientes, empleados y productos,
+                                    genera una factura. Este api fue hecho en NodeJs se utiliza Express como marco de trabajo, también se trabaja
+                                    con JWT para generar un token al momento del empleado iniciar sesión, con este token se protege las rutas,
+                                    y dependiendo del rol tiene acceso a ellas, la base de datos se hizo en MyQSL.
+                                </p>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=C5b3i_w_TzM&t=569s"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    
+                    <div class="work">
+                        <img src="img/proyectoChatbot.PNG" >
+                        <div class="layer">
+                            <h3>Intenligencia Artificial(Python)</h3>
+                            <p>           
+                                Este proyecto trata de un chatbot relacionado con los temas de estudio académica, y de ayudar 
+                                al usuario de cómo podría mejorar en sus estudios, de métodos para mejorar, cuáles son las mejores
+                                horas para estudiar, qué hacer cuando se tiene nervios, etc. Este proyecto fue hecho con python, se utilizó NLTK 
+                                para tokenizar y procesar el texto, se usó Keras la cual es para entrenar el modelo con red neuronal,
+                                y por último se utilizó Flask para utilizar el chatbot desde una página web.
+                            </p>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=AdVja7p5YYs"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
          <!----portfolio section End ----->
@@ -164,14 +251,14 @@
                 <div class="row">
                     <div class="contact-left">
                         <h1 class="sub-title">Contactame</h1>
-                        <p><i class="fa-solid fa-paper-plane"></i>themateo742@gmail.com</p>
+                        <p><i class="fa-solid fa-paper-plane"></i>mateomovilla.m@gmail.com</p>
                         <p><i class="fa-solid fa-square-phone-flip"></i>3117502271</p>
                         <p><i class="fa-solid fa-square-phone-flip"></i>6053236427</p>
 
                         <div class="social-icons">
                             <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
                             <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://github.com/2Mateo2?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></i></a>
                             <a href=""><i class="fa-brands fa-linkedin"></i></a>
                         </div>
                         <a href="docs/CV-Mateo-Movilla.pdf" download="CV MATEO MOVILLA" class="btn btn2">Descargar CV</a>
@@ -199,7 +286,6 @@
         var tabcontents = document.getElementsByClassName("tab-contents");
         function mensaje(){
             alert("En proceso... por favor contactame mediante un correo o un mensaje en Whatsapp, gracias por estar interesado")
-            
         }
         function opentab(tabname){
             for(tablink of tablinks){
